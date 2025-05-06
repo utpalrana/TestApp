@@ -1,5 +1,3 @@
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
 $(document).ready(function () {
     $('a[data-button-type="add-cart"]').on('click', function (e) {
         e.preventDefault();
@@ -24,4 +22,3 @@ $(document).ready(function () {
         });
     });
 });
-</script>
